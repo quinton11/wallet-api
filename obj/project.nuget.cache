@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "xescHIsJnBiQLX9eHHvFQOHeUjS/TTCVIUvjWxmlX5SiFE0GjSrofebptVIWDGnAjv26JBB0QPb9a+MLbvmZiw==",
-  "success": true,
+  "dgSpecHash": "jiUyn37oORB/CbPoZS/bJ4rTJwueE7sELmSMYkSViyikHkYWH+J27Hwgjt7mGWwwcaAFXInFiODqZyzFCiCYXQ==",
+  "success": false,
   "projectFilePath": "/Users/quintonsmith/projects/pproj/walletApi/walletApi.csproj",
   "expectedPackageFiles": [
     "/Users/quintonsmith/.nuget/packages/dotenv.net/3.1.2/dotenv.net.3.1.2.nupkg.sha512",
@@ -33,7 +33,7 @@
     "/Users/quintonsmith/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.8.0/microsoft.identitymodel.protocols.openidconnect.6.8.0.nupkg.sha512",
     "/Users/quintonsmith/.nuget/packages/microsoft.identitymodel.tokens/6.8.0/microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "/Users/quintonsmith/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
-    "/Users/quintonsmith/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/quintonsmith/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/quintonsmith/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/quintonsmith/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "/Users/quintonsmith/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
@@ -55,5 +55,15 @@
     "/Users/quintonsmith/.nuget/packages/system.text.encoding.codepages/4.7.0/system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "/Users/quintonsmith/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.OpenApi 7.0.12 is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Package Microsoft.AspNetCore.OpenApi 7.0.12 supports: net7.0 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
