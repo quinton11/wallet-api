@@ -9,7 +9,7 @@ public class CreateWalletRequest{
 
     public AccountType Type{get;set;}
 
-    [MinLength(6),MaxLength(6)] public string AccountNumber{get;set;}
+    [MinLength(10)] public string AccountNumber{get;set;}
 
     public AccountScheme AccountScheme{get;set;}
 
